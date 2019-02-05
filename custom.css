@@ -1,0 +1,417 @@
+h1 {
+	color:green;
+}
+#show,#show2,#show3,#show4,#show5,#show10,#show11,#show12,#show13,#show14 {
+	display:none;
+}
+
+div#content {
+  display:none;
+}
+
+div#content2 {
+  display:none;
+}
+
+div#content3 {
+  display:none;
+}
+
+div#content4 {
+  display:none;
+}
+div#content5 {
+  display:none;
+}
+
+div#content10 {
+  display:none;
+}
+
+div#content11 {
+  display:none;
+}
+
+div#content12 {
+  display:none;
+}
+
+div#content13 {
+  display:none;
+}
+div#content14 {
+  display:none;
+}
+
+
+
+input#show:checked ~ div#content {
+	display:block;
+}
+
+input#show:checked ~ div#content2 {
+        display:none;
+}
+
+input#show:checked ~ div#content3 {
+        display:none;
+}
+
+input#show:checked ~ div#content4 {
+        display:none;
+}
+input#show:checked ~ div#content5 {
+        display:none;
+}
+
+
+
+
+input#show2:checked ~ div#content2 {
+	display:block;
+}
+
+input#show2:checked ~ div#content {
+        display:none;
+}
+input#show2:checked ~ div#content3 {
+        display:none;
+}
+input#show2:checked ~ div#content4 {
+        display:none;
+}
+
+input#show2:checked ~ div#content5 {
+        display:none;
+}
+
+
+input#show3:checked ~ div#content3 {
+        display:block;
+}
+
+input#show3:checked ~ div#content {
+        display:none;
+}
+input#show3:checked ~ div#content2 {
+        display:none;
+}
+input#show3:checked ~ div#content4 {
+        display:none;
+}
+input#show3:checked ~ div#content5 {
+        display:none;
+}
+
+
+input#show4:checked ~ div#content4 {
+        display:block;
+}
+
+input#show4:checked ~ div#content {
+        display:none;
+}
+input#show4:checked ~ div#content3 {
+        display:none;
+}
+input#show4:checked ~ div#content2 {
+        display:none;
+}
+input#show4:checked ~ div#content5 {
+        display:none;
+}
+
+input#show5:checked ~ div#content5 {
+        display:block;
+}
+
+input#show5:checked ~ div#content {
+        display:none;
+}
+input#show5:checked ~ div#content3 {
+        display:none;
+}
+input#show5:checked ~ div#content2 {
+        display:none;
+}
+input#show5:checked ~ div#content4 {
+        display:none;
+}
+
+
+
+
+input#show10:checked ~ div#content10 {
+        display:block;
+}
+input#show10:checked ~ div#content11 {
+        display:none;
+}
+input#show10:checked ~ div#content12 {
+        display:none;
+}
+input#show10:checked ~ div#content13 {
+        display:none;
+}
+input#show10:checked ~ div#content14 {
+        display:none;
+}
+
+input#show11:checked ~ div#content5 {
+        display:block;
+}
+input#show11:checked ~ div#content11 {
+        display:block;
+}
+input#show11:checked ~ div#content10 {
+        display:none;
+}
+input#show11:checked ~ div#content12 {
+        display:none;
+}
+input#show11:checked ~ div#content13 {
+        display:none;
+}
+input#show11:checked ~ div#content14 {
+        display:none;
+}
+
+input#show12:checked ~ div#content5 {
+        display:block;
+}
+input#show12:checked ~ div#content12 {
+        display:block;
+}
+input#show12:checked ~ div#content11 {
+        display:none;
+}
+input#show12:checked ~ div#content10 {
+        display:none;
+}
+input#show12:checked ~ div#content13 {
+        display:none;
+}
+input#show12:checked ~ div#content14 {
+        display:none;
+}
+
+input#show13:checked ~ div#content5 {
+        display:block;
+}
+input#show13:checked ~ div#content13 {
+        display:block;
+}
+input#show13:checked ~ div#content11 {
+        display:none;
+}
+input#show13:checked ~ div#content12 {
+        display:none;
+}
+input#show13:checked ~ div#content10 {
+        display:none;
+}
+input#show13:checked ~ div#content14 {
+        display:none;
+}
+
+input#show14:checked ~ div#content5 {
+        display:block;
+}
+input#show14:checked ~ div#content14 {
+        display:block;
+}
+input#show14:checked ~ div#content11 {
+        display:none;
+}
+input#show14:checked ~ div#content12 {
+        display:none;
+}
+input#show14:checked ~ div#content13 {
+        display:none;
+}
+input#show14:checked ~ div#content10 {
+        display:none;
+}
+
+
+
+.spanmenu{
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.spanmenu2{
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.spanmenu3{
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.spanmenu4{
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #555555;
+}
+
+.spanmenu5{
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8A0829;
+}
+
+.spanmenu10{
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.spanmenu11{
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.spanmenu12{
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.spanmenu13{
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #555555;
+}
+
+.spanmenu14{
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8A0829;
+}
+
+
+.spanmenu:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.spanmenu2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.spanmenu3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.spanmenu4:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.spanmenu5:hover {
+  background-color: #8A0829;
+  color: white;
+}
+
+
+.menu {
+  text-align:center;
+}
